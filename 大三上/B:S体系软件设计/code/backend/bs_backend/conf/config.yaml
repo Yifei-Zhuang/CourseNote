@@ -1,0 +1,7 @@
+database: #using mysql
+  user: root # database user
+  password: 2020zyfqhdx
+  port: 3306
+  dbName: iot
+
+

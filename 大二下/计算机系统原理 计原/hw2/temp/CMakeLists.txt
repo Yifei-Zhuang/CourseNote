@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(DECOMPLIER)
+
+SET(SRC_LIST disAssembler.cpp)
+set(CMAKE_CXX_FLAGS "--std=c++17 -g -Wall -O2")
+ADD_EXECUTABLE(disAssembler ${SRC_LIST})

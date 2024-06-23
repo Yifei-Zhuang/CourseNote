@@ -1,0 +1,86 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[fontset=ubuntu]{ctex}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{placeins}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{软件需求工程作业一\ 项目规划}
+\author{庄毅非\ 何迪\ 李予谦\ 应凌凯\ 刘奕骁}
+
+\begin{document}
+\maketitle
+
+\section{确定队伍名}
+经过我们小组内部的讨论，大家一致决定 fiSSure 为我们的小组名
+
+\section{代码选择及优缺点分析}
+
+\subsection{后端代码分析}
+\subsubsection{优点}
+
+\begin{enumerate}
+    \item 模块分配清晰，将后端分为专门处理数据库相关操作的函数都封装在\textbf{db}和\textbf{models}文件夹中，其他模块只要导入对应的对象就可以执行其上的对象方法，实现对应的功能。
+    \item 使用\textbf{mongodb}进行数据表的定义，不仅容易找到属性对应的\textbf{constrains}，也清晰直观。
+    \item 将和错误处理等功能相关的函数放在中间件文件夹中，方便后续扩展使用。
+\end{enumerate}
+
+\subsubsection{缺点}
+\begin{enumerate}
+    \item 大部分代码缺少注释，不便于后期维护。
+    \item 部分配置已经过期，并且将安全密钥 \textbf{github\_assess\_token}写死在代码中，存在一定的安全隐患。
+\end{enumerate}
+
+\section{队伍角色和责任}
+\begin{table}
+\caption{\label{tab:widgets}角色分工表\strut}
+\centering
+\begin{tabular}{ |p{0.1\linewidth}|p{0.1\linewidth}|p{0.5\linewidth}|p{0.1\linewidth}| } 
+ \hline
+ 序号 & 角色 & 职责 & 人员\\ \hline
+ 1 & 队长\ 项目经理 & 在预算范围内按时优质地领导项目小组完成全部项目工作内容，并使客户满意。 & 庄毅非  \\ \hline
+ 2 & 产品经理 & 负责市场调查并根据用户的需求，确定开发何种产品，选择何种技术、商业模式等，根据产品的生命周期，协调研发、营销、运营等，确定和组织实施相应的产品策略。 & 李予谦\\ \hline
+ 3 & 设计总监 & 建立系统框架；数据库设计； 概要设计； 参加技术评审； & 刘奕骁\\ \hline
+ 4 & 测试经理 & 组织编写测试计划和测试方案，组织系统测试；参加技术评审； & 应凌凯\\ \hline
+ 5 & 美工 & 设计网站原型 & 何迪\\ \hline
+ 6 & 质量经理 & 带领软件质量监督组成员制定质量保证计划，对监督组反映的质量问题进行汇总与产品经理、项目经理进行交流，当新的问题出现时最终由质量经理决定处理方式。 & 全体\\ \hline
+ 7 & 开发人员 & 负责进行编码工作与单元测试，进行系统集成，及时解决测试时出现的问题 & 全体\\ \hline
+ 8 & 测试人员 & 编写测试方案和测试用例，进行系统测试，向开发组反馈 BUG。 & 全体\\ \hline
+ 9 & 软件质量监督 & 实时对质量经理以及项目经理提供项目进度与项目实际开发时的差异提出报告，指出差异原因和改进方法。 & 全体\\ \hline
+ \hline
+\end{tabular}
+\end{table}
+\FloatBarrier
+\section{项目管理策略}
+通过一系列讨论，大家确定了如下的项目管理方式。
+\begin{itemize}
+    \item 文档书写：通过overleaf LaTeX进行文档的书写，保证格式和样式统一 
+    \item 代码托管：通过github进行代码托管和版本控制，成员都通过pull request进行代码和文档的提交，由对应的reviewer进行代码检查，并决定是否进行merge。
+    \item 组会时间及形式：确定组会时间为每周二晚上7:00左右，形式为线下，主持人为庄毅非，每次预计30分钟。
+    \item 周会记录方式：每周在会中及时记录，在会后进行对应内容的补充
+\end{itemize}
+\section{项目计划}
+\begin{table}[h]
+\caption{\label{tab:anotherwidgets}项目计划时间表\strut}
+\centering
+\begin{tabular}{ |p{0.08\linewidth}|p{0.12\linewidth}|p{0.08\linewidth}|p{0.25\linewidth}|p{0.3\linewidth}| } 
+ \hline
+ 项目阶段 & 持续时间 & 负责人 & 主要工作 & 输出内容\\ \hline
+ 项目启动 & 2022.9.27-2022.10.07  & 庄毅非 & 进行项目可行性分析，制定项目计划 & 确定项目实现的技术栈以及大致方向  \\ \hline
+ 需求分析 & 2022.10.08-2022.11.20 & 李予谦 & 确定系统运行环境，确定系统功能及性能，建立系统逻辑模型 & 分析项目需求，确定需要实现的功能\\ \hline
+ 系统设计 & 2022.11.20-2022.12.01 & 刘奕骁 & 进行系统设计 & 搭建系统开发架构，方便进行开发；设计系统样式\\ \hline
+ 编程实现 & 2022.12.02-2022.12.22 & 何迪 & 进行系统编码 & 实现并部署网站\\ \hline
+ 需求维护 & 2022.11.30-2022.12.29 & 应凌凯 & 进行需求变更控制 & 把握需求变动，及时向开发组反馈\\ \hline
+ 系统测试 & 2022.12.22-2023.01.01 & 全体 & 进行系统测试， 项目总结 & 测试最终成品项目，保证验收通过\\ \hline
+ \hline
+\end{tabular}
+\end{table}
+\end{document}

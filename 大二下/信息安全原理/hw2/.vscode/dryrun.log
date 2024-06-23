@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/infoSec/hw2'
+g++ -c DH.cpp -g -O2 -Wall --std=c++17 -o DH.o
+g++ -o DH DH.o -g -O2 -Wall --std=c++17
+g++ -c bigInteger.cpp -g -O2 -Wall --std=c++17 -o bigInteger.o
+g++ -o bigInteger bigInteger.o -g -O2 -Wall --std=c++17
+make: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/infoSec/hw2'
+ 

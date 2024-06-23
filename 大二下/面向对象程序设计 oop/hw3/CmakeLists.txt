@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.2)
+
+project(adventure)
+
+message("begin compiling")
+
+set(CMAKE_CXX_STANDARD 20)
+
+# add_library(SHARED
+#         src/game.cpp
+#         src/LobbyRoom.cpp
+#         src/MonsterRoom.cpp
+#         src/PrincessRoom.cpp
+#         src/room.cpp
+#         src/room.hpp
+# )
+
+add_executable(adventure src/main.cpp)

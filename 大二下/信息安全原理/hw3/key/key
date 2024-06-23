@@ -1,0 +1,12 @@
+gpg: 吊销证书已被存储为‘/Users/zhuangyifei/.gnupg/openpgp-revocs.d/EFA1E6DB06EF053DEF12554BE907EC72D8AC6B31.rev’
+公钥和私钥已经生成并被签名。
+
+pub   rsa3072 2022-03-16 [SC] [有效至：2024-03-15]
+      EFA1E6DB06EF053DEF12554BE907EC72D8AC6B31
+uid                      zhuangyifei <1099665018@qq.com>
+sub   rsa3072 2022-03-16 [E] [有效至：2024-03-15]
+
+password: 13655050258
+email: 1099662018@qq.com
+user: zhuangyifei
+

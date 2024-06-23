@@ -1,0 +1,4 @@
+无法生成至 /Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw3
+无法读取 CMakeCache.txt
+
+请手动删除或选择其他生成目录

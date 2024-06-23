@@ -1,0 +1,3 @@
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw3/CMakeFiles/assemble.dir
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw3/CMakeFiles/edit_cache.dir
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw3/CMakeFiles/rebuild_cache.dir

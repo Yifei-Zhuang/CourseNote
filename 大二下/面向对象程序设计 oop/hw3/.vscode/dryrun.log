@@ -1,0 +1,23 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+/usr/local/Cellar/cmake/3.23.0/bin/cmake -S"/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" -B"/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/Cellar/cmake/3.23.0/bin/cmake -E cmake_progress_start "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3//CMakeFiles/progress.marks"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/adventure.dir/build.make CMakeFiles/adventure.dir/depend
+ 
+make[2]: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+cd "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" && /usr/local/Cellar/cmake/3.23.0/bin/cmake -E cmake_depends "Unix Makefiles" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3" "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles/adventure.dir/DependInfo.cmake" --color=
+ 
+make[2]: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/adventure.dir/build.make CMakeFiles/adventure.dir/build
+ 
+/usr/local/Cellar/cmake/3.23.0/bin/cmake -E cmake_echo_color --switch= --progress-dir="/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles" --progress-num=1,2 "Built target adventure"
+make[1]: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+ 
+/usr/local/Cellar/cmake/3.23.0/bin/cmake -E cmake_progress_start "/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles" 0
+ 
+make: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3'
+ 

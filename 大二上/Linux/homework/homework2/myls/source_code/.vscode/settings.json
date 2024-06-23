@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "dirent.h": "c",
+        "_pthread_types.h": "c",
+        "ctime": "c"
+    }
+}

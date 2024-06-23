@@ -1,0 +1,12 @@
+pdadd 2022-03-04
+this is a test for this diary program
+.
+pdadd 2022-03-05
+this is another test for this diary program
+.
+pdadd 2022-04-01
+this is another test for this diary program
+.
+pdshow 2022-03-04
+pdlist 
+pdlist 2022-03-03 2022-03-31

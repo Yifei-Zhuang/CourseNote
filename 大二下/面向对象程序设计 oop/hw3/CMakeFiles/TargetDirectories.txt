@@ -1,0 +1,3 @@
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles/adventure.dir
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles/edit_cache.dir
+/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/oop/hw3/CMakeFiles/rebuild_cache.dir

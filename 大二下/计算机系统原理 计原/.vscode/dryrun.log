@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle'
+make: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 

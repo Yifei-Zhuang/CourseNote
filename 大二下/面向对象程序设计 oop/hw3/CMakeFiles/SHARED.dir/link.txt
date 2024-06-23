@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libSHARED.a CMakeFiles/SHARED.dir/src/game.cpp.o CMakeFiles/SHARED.dir/src/LobbyRoom.cpp.o CMakeFiles/SHARED.dir/src/MonsterRoom.cpp.o CMakeFiles/SHARED.dir/src/PrincessRoom.cpp.o CMakeFiles/SHARED.dir/src/room.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libSHARED.a

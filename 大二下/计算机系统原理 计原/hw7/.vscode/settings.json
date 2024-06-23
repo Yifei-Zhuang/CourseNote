@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "cmath": "c",
+        "complex": "c",
+        "cstdlib": "c",
+        "random": "c",
+        "*.tcc": "c",
+        "numeric": "c",
+        "chrono": "c",
+        "ratio": "c"
+    }
+}

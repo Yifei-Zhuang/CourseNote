@@ -1,0 +1,7 @@
+https://www.ruanyifeng.com/blog/2013/07/gpg.html
+解密：gpg --output result --decrypt encryptfile 
+加密: gpg --recipient TA --output encryptedFIle --encrypt originalFile
+签名: gpg --local-user xxx --sign file 
+参数–secret-keyring和–keyring分别对应外部的私钥和公钥，这样就可以不必导入私钥和公钥就可以来解密文件了。
+
+

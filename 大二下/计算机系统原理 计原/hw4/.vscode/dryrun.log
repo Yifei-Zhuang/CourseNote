@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw4'
+clang++ -Wall -g -O2 --std=c++20 -c main.cpp
+clang++ -Wall -g -O2 --std=c++20 main.o -o main
+make: Leaving directory `/Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/computer_system_principle/hw4'
+ 

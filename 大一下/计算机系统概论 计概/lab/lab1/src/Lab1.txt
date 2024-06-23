@@ -1,0 +1,26 @@
+;; algorithm: use r0 to store the value to be tested.initialize r2 to be 0 (which means the number is not what we want) and r1 to be 0x0007 and each time we examine whether r0 & r1 == r1 is true or not,
+;;  if it's true, then the number is what we want ,and each circle we shift r1 to left by 1 position. finnally we examine the value of r2. Use r3 to be a counter, r4 to save temp value
+; r0: the value
+; r1: checker
+; r2: result
+; r3: counter
+; r4: temp value
+0011 0000 0000 0000 ;0x3000
+0010 000 011111111 ;ld r0
+0101 010 010 1 00000 ;r2<-0
+0101 001 001 1 00000 ;r1<-0
+0001 001 001 1 00111 ;r1=7
+0101 011 011 1 00000 ;r3<-0
+0001 011 011 1 01110 ;r3 = 14 #TODO check
+0000 010 000001010 ;if r3 = 0, end the loop
+0101 100 000 0 00 001 ;r4 <- r0 & r1
+1001 100 100 111111 ; r4 = not(r4)
+0001 100 100 1 00001 ;r4 = -r4
+0001 100 100 0 00 001 ;r4 = r4 + r1
+0000 010 000000100 ;check if r4 = r1
+0001 001 001 0 00 001 ; r1 << 1
+0001 011 011 1 11111 ; r3 = r3 -1
+0000 111 111110111 ;jump to 15
+0000 111 000000001 ;jump to halt
+0001 010 010 1 00001
+1111 0000 0010 0101 ;halt

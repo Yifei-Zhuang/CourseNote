@@ -1,0 +1,355 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Mar  7 20:18:49 2023
+
+# Variables
+
+# environment
+JENV_SHELL = zsh
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/infoSec/hw2
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"5e814cb2e3d55c7b604c7102f495ba49.zh-cn","_translationsConfigFile":"/Users/zhuangyifei/Library/Application Support/Code/clp/5e814cb2e3d55c7b604c7102f495ba49.zh-cn/tcf.json","_cacheRoot":"/Users/zhuangyifei/Library/Application Support/Code/clp/5e814cb2e3d55c7b604c7102f495ba49.zh-cn","_corruptedFile":"/Users/zhuangyifei/Library/Application Support/Code/clp/5e814cb2e3d55c7b604c7102f495ba49.zh-cn/corrupted.info","_resolvedLanguagePackCoreLocation":"/Users/zhuangyifei/Library/Application Support/Code/clp/5e814cb2e3d55c7b604c7102f495ba49.zh-cn/92da9481c0904c6adfe372c12da3b7748d74bdcb","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 3)
+CFLAGS = -g -O2 -Wall --std=c++17
+# environment
+STARSHIP_SESSION_KEY = 4969263286631157
+# environment
+EDGE_BROWSER_PID = 17759
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+GUILE_SYSTEM_EXTENSIONS_PATH = /usr/local/lib/guile/3.0/extensions
+# environment
+GOPROXY = https://proxy.golang.com.cn,direct
+# environment
+PATH = /usr/local/opt/coreutils/libexec/gnubin:/usr/local/mongodb/bin:/usr/local/bin/pnpm:/usr/local/Cellar/riscv-gnu-toolchain/main/bin:/Users/zhuangyifei/.jenv/shims:/Users/zhuangyifei/.jenv/bin:/Users/zhuangyifei/.pyenv/shims:/usr/local/opt/python@3.7/bin:/usr/local/sbin:/Users/zhuangyifei/.rbenv/shims:/Users/zhuangyifei/mybin:/Users/zhuangyifei/.autojump/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/go/bin:/Applications/Little Snitch.app/Contents/Components:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/zhuangyifei/.cargo/bin:/usr/local/mysql/bin:/usr/local/opt/fzf/bin
+# makefile (from `Makefile', line 5)
+OBJS2 = DH.o
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+PNPM_HOME = /usr/local/bin/pnpm
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+HOMEBREW_BREW_GIT_REMOTE = https://mirrors.ustc.edu.cn/brew.git
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/zhuangyifei/.pyenv
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+LS_COLORS = di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=37;41:sg=30;43:tw=30;42:ow=34;42:
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.royesnqbU2/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.26lZ7WGZbm/org.xquartz:0
+# environment
+all_proxy = socks5://127.0.0.1:7890
+# environment
+PWD = /Users/zhuangyifei/Desktop/tech_Learning/myhomework/Second Down/infoSec/hw2
+# makefile (from `Makefile', line 4)
+OBJS1 = bigInteger.o
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/zhuangyifei
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/zhuangyifei/Library/Application Support/Code/CachedData/92da9481c0904c6adfe372c12da3b7748d74bdcb
+# environment
+LOGNAME = zhuangyifei
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+ZSH = /Users/zhuangyifei/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+GEM_PATH = :/Users/zhuangyifei/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+GUILE_LOAD_PATH = /usr/local/share/guile/site/3.0
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = zhuangyifei
+# makefile
+.DEFAULT_GOAL := all
+# environment
+OPENBLAS = /usr/local/opt/openblas
+# environment
+JENV_LOADED = 1
+# environment
+DBUS_LAUNCHD_SESSION_BUS_SOCKET = /private/tmp/com.apple.launchd.uLxenpAAQo/unix_domain_listener
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/k1/fvxnxjl5345fjcv_83_qc0hw0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/zhuangyifei/Library/Application Support/Code/1.76-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /Users/zhuangyifei/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.234222436.234222442
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+http_proxy = http://127.0.0.1:7890
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
+# environment
+COMMAND_MODE = unix2003
+# environment
+VCPKG_ROOT = /Users/zhuangyifei/vcpkg
+# default
+MAKEFILES := 
+# environment
+RBENV_SHELL = zsh
+# automatic
+<F = $(notdir $<)
+# environment
+https_proxy = http://127.0.0.1:7890
+# makefile (from `Makefile', line 6)
+CXX = g++
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+GUILE_LOAD_COMPILED_PATH = /usr/local/lib/guile/3.0/site-ccache
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+AUTOJUMP_ERROR_PATH = /Users/zhuangyifei/Library/autojump/errors.log
+# environment
+LANG = C
+# environment
+VSCODE_PID = 20775
+# environment
+STARSHIP_SHELL = zsh
+# environment
+_ZL_MATCH_MODE = 1
+# variable set hash-table stats:
+# Load=95/1024=9%, Rehash=0, Collisions=10/128=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 39563288): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+DH: DH.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `Makefile', line 12):
+	$(CXX) -o DH $(OBJS2) $(CFLAGS)
+	
+
+all: DH bigInteger
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+DH.o: DH.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `DH'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := DH.o
+# automatic
+# % := 
+# automatic
+# * := DH
+# automatic
+# + := DH.cpp
+# automatic
+# | := 
+# automatic
+# < := DH.cpp
+# automatic
+# ^ := DH.cpp
+# automatic
+# ? := DH.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  commands to execute (from `Makefile', line 18):
+	$(CXX) -c $< $(CFLAGS) -o $@
+	
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-04 08:35:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bigInteger.o: bigInteger.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `bigInteger'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	$(CXX) -c $< $(CFLAGS) -o $@
+	
+
+bigInteger: bigInteger.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 9):
+	$(CXX) -o bigInteger $(OBJS1) $(CFLAGS)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+DH.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 18:18:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 22):
+	-$(RM) DH bigInteger $(OBJS1) $(OBJS2)
+	
+
+# Not a target:
+bigInteger.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Mar  7 20:18:49 2023
+
+ 

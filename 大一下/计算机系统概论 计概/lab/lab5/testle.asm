@@ -1,0 +1,30 @@
+.orig x4000
+.fill #5
+.fill #5
+
+.fill #3
+.fill #15
+.fill #8
+.fill #4
+.fill #10
+.fill #14
+.fill #9
+.fill #14
+.fill #2
+.fill #7
+.fill #15
+.fill #5
+.fill #12
+.fill #10
+.fill #0
+.fill #13
+.fill #7
+.fill #12
+.fill #12
+.fill #18
+.fill #2
+.fill #3
+.fill #1
+.fill #6
+.fill #18
+.end
